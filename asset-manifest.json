@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pomodoroClock/static/css/main.20d6b648.css",
+    "main.js": "/pomodoroClock/static/js/main.7147997a.js",
+    "static/media/pexels-rostislav-uzunov-7670835.mp4": "/pomodoroClock/static/media/pexels-rostislav-uzunov-7670835.7c6077676a6778102d75.mp4",
+    "static/media/Alarm-clock- sound.mp3": "/pomodoroClock/static/media/Alarm-clock- sound.c6a8bf012b1c2a7d50a3.mp3",
+    "index.html": "/pomodoroClock/index.html",
+    "main.20d6b648.css.map": "/pomodoroClock/static/css/main.20d6b648.css.map",
+    "main.7147997a.js.map": "/pomodoroClock/static/js/main.7147997a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20d6b648.css",
+    "static/js/main.7147997a.js"
+  ]
+}
