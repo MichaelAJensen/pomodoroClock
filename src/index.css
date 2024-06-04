@@ -1,0 +1,103 @@
+*,
+html,
+body,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #040309;
+    height: 100vh;
+    width: 100vw;
+}
+
+.app-wrapper {
+    height: 100vh;
+    max-height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    /* background-color: teal; */
+    display: grid;
+    grid-template-areas:
+        'mainList currentSession currentSession workTime'
+        'mainList currentSession currentSession breakTime';
+    grid-template-rows: repeat(2, 50vh);
+    grid-template-columns: repeat(4, 24%);
+    gap: 20px;
+    padding: 10px;
+    overflow: scroll;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.app-wrapper>div {
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.clockName {
+    color: white;
+    grid-area: clockName;
+}
+
+.mainList {
+    border: 2px solid white;
+    color: white;
+    grid-area: mainList;
+    height: 88%;
+}
+
+.currentSession {
+    border: 2px solid;
+    color: white;
+    grid-area: currentSession;
+}
+
+.workTime {
+    border: 2px solid;
+    color: white;
+    grid-area: workTime;
+}
+
+.breakTime {
+    border: 2px solid;
+    color: white;
+    grid-area: breakTime;
+}
+
+.bgVideo {
+    z-index: -100;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    justify-self: center;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.header-wrapper {
+    color: white;
+}
+
+.list-wrapper {
+    color: white;
+
+}
+
+.list-wrapper>ul {
+    color: white;
+    list-style-type: none;
+}
+
